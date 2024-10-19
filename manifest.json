@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Focus Mode",
+  "version": "1.0",
+  "description": "Dim all other tabs except the active one to help you stay focused.",
+  "action": {
+    "default_popup": "js/index.html",
+    "default_title": "Focus Mode"
+  },
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "scripting",
+    "storage"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ]
+}
